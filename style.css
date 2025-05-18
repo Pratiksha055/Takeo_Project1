@@ -52,7 +52,6 @@ button {
 }
 
 .weather-info {
-
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
