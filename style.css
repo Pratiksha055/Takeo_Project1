@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+/* Background and centering layout */
+body {
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* Main container styling */
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+/* App title */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+/* Input field styling */
+input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+/* Button container */
+.buttons {
+  margin-top: 10px;
+}
+/* Buttons styling */
+button {
+  margin: 10px 5px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #0077ff;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.weather-info {
+
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 15px;
+  font-size: 18px;
+  gap: 8px 20px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #005dc4;
+}
+/* Weather result container */
+#weatherResult {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#weatherResult img {
+  width: 80px;
+  margin-top: 10px;
+}
+/* Responsive styling for mobile */
+@media (max-width: 500px) {
+  input, button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

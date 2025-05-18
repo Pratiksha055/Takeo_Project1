@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!--This is the main container for the weather app -->
+  <div class="container">
+    <h1>&#x1F324; Weather App</h1>
+
+    <!-- Input field for city name -->
+    <input type="text" id="cityInput" placeholder="Enter city name" />
+
+    <!-- Buttons for searching and clearing results -->
+    <div class="buttons">
+      <button onclick="getWeather()">Search</button>
+      <button onclick="clearWeather()">Clear</button>
+    </div>
+    <!-- This is where the weather results will be displayed -->
+    <div id="weatherResult"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
