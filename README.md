@@ -26,7 +26,8 @@
     - Press enter to search
     - Clear button to reset results
 
-#Screenshots of Weather App preview
+# Screenshots of Weather App preview
+
     -Error handling for incorrect input 
 ![Invalid City](screenshots/Invalid%20City.png)
 
