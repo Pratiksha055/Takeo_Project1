@@ -26,4 +26,18 @@
     - Press enter to search
     - Clear button to reset results
 
- 
+#Screenshots of Weather App preview
+    -Error handling for incorrect input 
+![Invalid City](screenshots/Invalid%20City.png)
+
+    -Automatic Weather Detection
+![Automatic Weather](screenshots/Automatic%20weather%20detection.png)
+
+    -Weather in New Delhi
+![New Delhi](screenshots/New%20Delhi%20weather.png)
+
+    -Weather in New York
+![NewYork](screenshots/NewYork%20weather.png)
+
+    -Weather in South Carolina
+![South Carolina](screenshots/South%20Carolina%20weather.png)
