@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY"; // Replace with your OpenWeatherMap API key
+const apiKey = "30f73c7c9dc7ab69923ee4a8a7d9d372"; // Replace with your OpenWeatherMap API key
 
 // Fetches weather data based on user input and displays it
 async function getWeather() {
